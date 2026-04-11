@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🔎 Buscar Pokémon ( Pokédex )</h1>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Digite nome ou ID (1 a 1025)  ">
+      <button id="searchBtn">Buscar</button>
+    </div>
+
+    <p id="loading">Carregando...</p>
+
+    <div id="pokemonInfo"></div>
+
+    <button id="favBtn" style="display:none;">❤️ Favoritar</button>
+
+    <div id="favoritos">
+        <h3>⭐ Favoritos</h3>
+
+        <ul id="listaFav"></ul>
+
+        <button id="clearFav">🗑️ Limpar Favoritos</button>
+    </div>
+
+    <footer>
+      <p>Desenvolvido por Ramon Silva 🚀</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
